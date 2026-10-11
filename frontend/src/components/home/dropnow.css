@@ -1,0 +1,39 @@
+
+.logos {
+    overflow: hidden;
+   
+   
+    white-space: nowrap;
+    width: 100%;
+   
+    
+}
+.logos-slide {
+    display: inline-block;
+    animation: 25s slide infinite linear;
+}
+.logos-slide1 {
+    display: inline-block;
+    animation: 25s slide1 infinite linear;
+}
+.logos-slide p, .logos-slide1 p {
+    font-size: 70px;
+    color: rgb(172, 172, 172);
+    display: inline;
+    margin-right: 30px;
+ 
+    font-weight: 100;
+}
+
+/* .logos:hover .logos-slide { animation-play-state: paused; } */
+@keyframes slide {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+}
+@keyframes slide1 {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0%); }
+}
+.pr_3d{
+    perspective: 800px;
+}

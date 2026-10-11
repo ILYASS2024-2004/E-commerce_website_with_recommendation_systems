@@ -1,0 +1,16 @@
+/* .lin-lr{
+    background: linear-gradient( to left bottom, #f8f8f8 50%,transparent ),
+    repeating-linear-gradient(
+        #2b2b2b65,
+        #2b2b2b54 1px,
+        transparent 1px,
+       transparent 35px
+    ),
+    repeating-linear-gradient(
+        to right,
+        #2b2b2b56,
+        #2b2b2b5d 1px,
+        transparent 1px,
+       transparent 35px
+    );
+} */

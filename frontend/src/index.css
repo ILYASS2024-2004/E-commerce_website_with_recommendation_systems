@@ -1,0 +1,108 @@
+ * {
+
+  box-sizing: border-box;
+ }
+
+ body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+
+
+ }
+  ::selection {
+  background-color: rgb(255, 245, 152); /* Couleur de la sélection */
+  color: rgb(237, 164, 255);            /* Couleur du texte sélectionné */
+}
+
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+ }
+
+         @font-face {
+  font-family: 'Super';
+  src: url('/fonts/Super\ Sliced.ttf') format('truetype');
+}
+
+
+       @font-face {
+  font-family: 'techno';
+  src: url('/fonts/techno_hideo.ttf') format('truetype');
+}
+       @font-face {
+  font-family: 'full';
+  src: url('/fonts/full\ Pack\ 2025.ttf') format('truetype');
+}
+       @font-face {
+  font-family: 'Above';
+  src: url('/fonts/Above\ Bold.otf') format('truetype');
+}
+        @font-face {
+  font-family: 'Diamod';
+  src: url('/fonts/DIMOD.otf') format('truetype');
+}
+        @font-face {
+  font-family: 'fth';
+  src: url('/fonts/faith.ttf') format('truetype');
+}
+ @font-face {
+  font-family: 'mgn';
+  src: url('/fonts/Megina.ttf') format('truetype');
+}
+
+
+ .super{
+  font-family: 'Super', sans-serif;
+ }
+  .techno{
+    font-family: 'techno', sans-serif;
+  }
+  .full{
+    font-family: 'full', sans-serif;
+  }
+  .above{
+    font-family: 'Above', sans-serif;
+  }
+  .diamod{
+    font-family: 'Diamod', sans-serif;
+  }
+  .fth{
+    font-family: 'fth', sans-serif;
+  }
+  .mgn{
+    font-family: 'mgn', sans-serif;
+  }
+ .lin-lr{
+    background: linear-gradient( to left bottom , #f8f8f8 ,transparent,#f8f8f8 50% ),
+    repeating-linear-gradient(
+        #2b2b2b65,
+        #2b2b2b54 1px,
+        transparent 1px,
+       transparent 35px
+    ),
+    repeating-linear-gradient(
+        to right,
+        #2b2b2b56,
+        #2b2b2b5d 1px,
+        transparent 1px,
+       transparent 35px
+    );
+}
+ .lin-lr2{
+    background: linear-gradient( to left bottom, #f8f8f8 15%,transparent,#f8f8f8 80%),
+    repeating-linear-gradient(
+        #2b2b2b65,
+        #2b2b2b54 1px,
+        transparent 1px,
+       transparent 35px
+    ),
+    repeating-linear-gradient(
+        to right,
+        #2b2b2b56,
+        #2b2b2b5d 1px,
+        transparent 1px,
+       transparent 35px
+    );
+}

@@ -1,0 +1,11 @@
+# Datasets volumineux
+*.csv
+
+# Modèles ML
+*.pkl
+
+# Dossiers modèles
+models/
+
+# Jupyter
+.ipynb_checkpoints/
