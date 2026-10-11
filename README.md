@@ -31,10 +31,6 @@ This hybrid architecture aims to better match products to users by combining:
 
 ## Project Preview
 
-### Home Page
-
-<img src="./image(119).png" width="60%">
-
 ### Product Details Page
 
 <img src="./photo_github1.png" width="60%">
