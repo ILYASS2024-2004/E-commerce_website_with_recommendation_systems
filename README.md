@@ -5,10 +5,10 @@ The platform combines a clean fashion-oriented storefront with data-driven produ
 
 This project was developed collaboratively with:
 
+- **Ilyass El-Ogri**
 - **Khadija Mellak**
 - **Mohamed Amine Bounja**
 - **Bouthayna Ennerhaima**
-- **Ilyass El-Ogri**
 
 ---
 
